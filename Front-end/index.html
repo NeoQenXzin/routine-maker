@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Routine Maker</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Routine maker</h1>
+      <h2>Habits to make today 😎✌</h2>
+      <div class="habits-container">
+        <!-- <p>loadind ...</p> -->
+        <ul class="habits" id="habits"></ul>
+      </div>
+      <div class="action">
+        <dialog close class="dialog" id="habits-history-dialog">
+          <div class="dialog-content">
+            <h2>Habits history</h2>
+            <div id="table-wrapper"></div>
+            <form method="dialog">
+              <button type="submit" class="close-button">X</button>
+            </form>
+          </div>
+        </dialog>
+
+        <dialog close class="dialog2">
+          <p style="padding-top: 30px">
+            🐱‍🏍What habit would you like to add 🐱‍👓 ?
+          </p>
+          <form method="dialog">
+            <input type="text" name="myNewHabit" id="myNewHabit" />
+            <button id="submitNewHabit">✨</button>
+            <button type="submit" class="close-button">X</button>
+          </form>
+        </dialog>
+        <button id="addHabit">Add new habits</button>
+        <button id="history">See History</button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

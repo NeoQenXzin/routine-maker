@@ -1,0 +1,51 @@
+{
+  "habits": [
+    {
+      "id": 1,
+      "title": "Work 6 hours",
+      "daysDone": {
+        "2023-11-26": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lecture",
+      "daysDone": {
+        "2023-11-26": false
+      }
+    },
+    {
+      "id": 4,
+      "title": "Martial arts",
+      "daysDone": {
+        "2023-11-26": false
+      }
+    },
+    {
+      "id": 5,
+      "title": "Yoga",
+      "daysDone": {
+        "2023-11-26": false
+      }
+    },
+    {
+      "id": 6,
+      "title": "Footing",
+      "daysDone": {
+        "2023-11-26": false
+      }
+    },
+    {
+      "id": 7,
+      "title": "Corde a sauter",
+      "daysDone": {
+        "2023-11-26": false
+      }
+    },
+    {
+      "id": 7,
+      "title": "Meditation",
+      "daysDone": {}
+    }
+  ]
+}
